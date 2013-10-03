@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require File.join(File.dirname(__FILE__), '../lib/notifies')
+
+# TODO: implement command line with commander
+Notifies.notify ARGV.shift
